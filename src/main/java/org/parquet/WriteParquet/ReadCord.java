@@ -22,8 +22,6 @@ public class ReadCord {
             System.out.println(content);
         }while(content != null);
         System.out.println("i counter:"+--i);
-        Group group = new SimpleGroup(null);
-        group.getGroup("", 0);
     }
 
     public static ParquetReader<ArrayWritable> getReader(Path path) throws IOException{
